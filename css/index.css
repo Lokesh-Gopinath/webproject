@@ -5,17 +5,6 @@
   box-sizing: border-box;
 }
 
-.logos {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.logos img {
-  margin: 0 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
 body {
   font-family: Arial, sans-serif;
   background-color: #e0e0e0;
@@ -58,7 +47,7 @@ nav a:hover {
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   z-index: 1;
 }
@@ -68,6 +57,7 @@ nav a:hover {
   padding: 10px 15px;
   display: block;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .dropdown-content a:hover {
@@ -99,12 +89,26 @@ h1 span {
   color: #ffcc00;
 }
 
+/* Optional: Uncomment if you add logos */
+/*
+.logos {
+  text-align: center;
+  margin: 20px 0;
+}
+.logos img {
+  width: 70px;
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+*/
+
 .section {
   background-color: white;
   margin-bottom: 30px;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
@@ -130,4 +134,3 @@ footer {
   color: white;
   font-size: 16px;
 }
-
